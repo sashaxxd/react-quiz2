@@ -1,0 +1,61 @@
+#FlexBoxContainer7 {
+    -moz-box-sizing: border-box;
+    -webkit-align-content: stretch;
+    -webkit-align-items: stretch;
+    -webkit-align-self: auto;
+    -webkit-box-sizing: border-box;
+    -webkit-flex-direction: column;
+    -webkit-flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    align-self: auto;
+    background-color: #0080FF;
+    background-color: rgba(0,128,255,0.78);
+    background-image: none;
+    border: 0px #CCCCCC solid;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+#Editbox1 {
+    -webkit-align-self: auto;
+    -webkit-flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    align-self: auto;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 0px #CCCCCC solid;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: Arial;
+    font-size: 29px;
+    font-weight: normal;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+    vertical-align: middle;
+}
+#Editbox1:focus {
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+    border-color: #66AFE9;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+    outline: 0;
+}
+#Editbox1 {
+    display: block;
+    height: 46px;
+}
