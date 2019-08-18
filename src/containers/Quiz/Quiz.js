@@ -58,7 +58,7 @@ class Quiz extends Component {
     async componentDidMount() {
 
         const api_url = await
-            fetch(`http://yii2-rest-api-quiz2/questions/index`);
+            fetch(`http://shop.studioart.by/web/questions/index`);
         const data = await api_url.json();
         // console.log(data);
         this.setState({
@@ -84,7 +84,7 @@ class Quiz extends Component {
         let search = e.target.value;
         if(search) {
             const api_url = await
-                fetch(`http://yii2-rest-api-quiz2/questions/search?name=${search}`);
+                fetch(`http://shop.studioart.by/web/questions/search?name=${search}`);
             const data = await api_url.json();
             console.log(data);
             if(data.name !== "Not Found"){
@@ -111,7 +111,7 @@ class Quiz extends Component {
         alert(isChecked)
         if(item && isChecked === true) {
             const api_url = await
-                fetch(`http://yii2-rest-api-quiz2/questions/search?answer=${item}`);
+                fetch(`http://shop.studioart.by/web/questions/search?answer=${item}`);
             const data = await api_url.json();
             console.log(data);
             if(data.name !== "Not Found"){
